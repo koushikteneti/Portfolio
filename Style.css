@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background: #111;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    color: #00ffff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #00ffff;
+  }
+  
+  .hero {
+    height: 100vh;
+    background: linear-gradient(120deg, #000, #111);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero-content {
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content span {
+    color: #00ffff;
+  }
+  
+  .hero-content .btn {
+    padding: 0.8rem 1.5rem;
+    background: #00ffff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: transform 0.3s;
+  }
+  
+  .hero-content .btn:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+  .contact-section {
+    background: #111;
+    padding: 3rem 2rem;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    color: #00ffff;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .contact-info a {
+    color: #00ffff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact-info a:hover {
+    color: #00bfbf;
+  }
+  
+  
