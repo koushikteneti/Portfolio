@@ -93,6 +93,7 @@
       opacity: 1;
     }
   }
+  
   .contact-section {
     background: #111;
     padding: 3rem 2rem;
@@ -120,5 +121,4 @@
   .contact-info a:hover {
     color: #00bfbf;
   }
-  
   
