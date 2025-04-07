@@ -53,11 +53,7 @@
     padding: 2rem;
   }
   
-  .hero-content {
-    animation: fadeInUp 1s ease forwards;
-    opacity: 0;
-  }
-.profile-pic {
+  .profile-pic {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -65,7 +61,12 @@
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-
+  
+  .hero-content {
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+  }
+  
   .hero-content h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
